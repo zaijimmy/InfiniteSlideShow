@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.resources = "Resources/*.png"
   s.requires_arc = true
-  s.dependency "SDWebImage", "~> 3.5.4"
+  s.dependency "SDWebImage", "3.7.1"
 end
